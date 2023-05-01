@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "head_quaters": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "established": {
+      "type": "string"
+    },
+    "__v": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "_id",
+    "id",
+    "name",
+    "country",
+    "logo",
+    "slogan",
+    "head_quaters",
+    "website",
+    "established",
+    "__v"
+  ]
+}
