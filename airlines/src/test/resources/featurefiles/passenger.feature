@@ -21,7 +21,11 @@ Feature: Passenger APIs
   | F:/Airlines-Cucumber-RestAssured/airlines/src/test/java/testdata/passengerUpdatePayload.json |
   
   
+
   Scenario: Delete passenger with a specific Id
     When DELETE request with passengerId is hit
     Then Verify the status code after delete
-  
+    
+    Scenario: Get passenger with specific id after delete
+    When GET request with passengerId is hit
+    Then Verify the status code for get after delete
