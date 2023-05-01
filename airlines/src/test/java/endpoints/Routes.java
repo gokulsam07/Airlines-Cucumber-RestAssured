@@ -14,9 +14,8 @@ public class Routes {
 
 	public static String createPassenger = baseURI+"/passenger";
 	public static String getSpecificPassenger = baseURI+"/passenger/{id}";
-	public static String deleteSpecificPassenger = baseURI+"/passenger/{id}";
-	public static String updatePassengerName = baseURI+"/passenger/{id}";
 	public static String updatePassengerDetails = baseURI+"/passenger/{id}";
+	public static String deleteSpecificPassenger = baseURI+"/passenger/{id}";
 
 
 }
